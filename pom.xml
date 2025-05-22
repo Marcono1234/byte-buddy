@@ -374,7 +374,7 @@
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>${version.plugin.javadoc}</version>
                     <configuration>
-                        <source>${sourcecode.main.version}</source>
+                        <source>8</source>
                         <failOnWarnings>false</failOnWarnings>
                         <detectOfflineLinks>false</detectOfflineLinks>
                         <!-- Link against newer Java API Javadoc because most users likely
